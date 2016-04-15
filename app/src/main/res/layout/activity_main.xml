@@ -1,0 +1,187 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/civil"
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/civil"
+            android:id="@+id/btncivil"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="8dp"
+            android:onClick="CivilButton"
+            android:background="@drawable/civil"
+            android:textStyle="bold"
+            android:textSize = "20dp"
+           />
+        <Button
+            style="@style/mechanical"
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/mechanical"
+            android:id="@+id/btnmechanical"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/mechanical"
+            android:textStyle="bold"
+            android:textSize = "20dp"
+
+
+            android:onClick="MechanicalButton" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="horizontal">
+        <Button
+            style="@style/electrical"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="match_parent"
+            android:text="@string/electrical"
+            android:id="@+id/btnelectrical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/electrical"
+            android:textStyle="bold"
+            android:textSize = "20dp"
+
+
+
+            android:onClick="ElectricalButton" />
+        <Button
+            style="@style/ec"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="match_parent"
+            android:text="@string/ec"
+            android:id="@+id/btnec"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/ec"
+            android:textStyle="bold"
+            android:textSize = "20dp"
+
+            android:onClick="EcButton" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="4"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+        <Button
+            style="@style/chemical"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="match_parent"
+            android:text="@string/chemical"
+            android:id="@+id/btnchemical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/chemical"
+            android:textStyle="bold"
+            android:textSize = "20dp"
+
+            android:onClick="ChemicalButton" />
+        <Button
+            style="@style/ei"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="match_parent"
+            android:text="@string/ei"
+            android:id="@+id/btnei"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/ei"
+            android:textStyle="bold"
+            android:textSize = "20dp"
+
+            android:onClick="EiButton" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="4"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+        <Button
+            style="@style/cse"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="match_parent"
+            android:text="@string/cse"
+            android:id="@+id/btncse"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/cse"
+            android:textStyle="bold"
+            android:textSize = "20dp"
+
+            android:onClick="CseButton" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="4"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/aeronautical"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="match_parent"
+            android:text="@string/aeronautical"
+            android:id="@+id/btnfood"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/aeronautical"
+            android:textStyle="bold"
+            android:textSize = "20dp"
+
+            android:onClick="AeronauticalButton" />
+        <Button
+            style="@style/petroleum"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="match_parent"
+            android:text="@string/petroleum"
+            android:id="@+id/btnpetroleum"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/petroleum"
+           android:textStyle="bold"
+            android:textSize = "20dp"
+
+
+
+            android:onClick="PetroleumButton" />
+
+    </LinearLayout>
+
+</LinearLayout>

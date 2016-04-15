@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:colorPrimary">#FF0080</item>
+
+
+    </style>
+</resources>

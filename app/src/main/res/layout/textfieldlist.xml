@@ -1,0 +1,16 @@
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textfieldlist"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="11dip"
+    android:textSize="17dip"
+    android:textStyle="bold"
+    android:text=""
+    android:textColor="#000000"
+    android:scrollbars="vertical"
+    android:textAlignment="gravity"
+    android:layout_margin="5dip"
+    android:typeface = "monospace"
+    android:background = "#E6E6E6"
+    />

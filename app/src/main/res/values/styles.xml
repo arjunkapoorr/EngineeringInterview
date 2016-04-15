@@ -1,0 +1,70 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="background">#B6B6B6</color>
+    <color name = "title">#B6B6B6</color>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+
+        <item name="android:windowBackground">@color/background</item>
+        <item name = "android:colorPrimary">#FF0080</item>
+
+
+    </style>
+
+
+
+    //BUTTON COLORS
+    <style name="civil">
+
+        <item name="android:textColor">@drawable/text_color</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+    <style name="mechanical">
+
+        <item name="android:textColor">@drawable/text_color</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+    <style name="electrical">
+
+        <item name="android:textColor">@drawable/text_color</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+    <style name="ec">
+
+        <item name="android:textColor">@drawable/text_color</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+    <style name="chemical">
+
+        <item name="android:textColor">@drawable/text_color</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+    <style name="ei">
+
+        <item name="android:textColor">@drawable/text_color</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+    <style name="cse">
+
+        <item name="android:textColor">@drawable/text_color</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+    <style name="aeronautical">
+        <item name="android:textColor">@drawable/text_color</item>
+
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+    <style name="petroleum">
+
+
+        <item name="android:textColor">@drawable/text_color</item>
+
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+
+
+
+</resources>

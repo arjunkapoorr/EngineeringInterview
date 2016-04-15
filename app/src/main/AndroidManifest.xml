@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arjunkapoor.engineeringinterview"
+    android:versionCode="3"
+    android:versionName="1.2">
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.arjunkapoor.engineeringinterview.splash"
+            android:label="Engineering Interview" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.arjunkapoor.engineeringinterview.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.arjunkapoor.engineeringinterview.civil"
+            android:label="@string/title_activity_civil"
+            android:parentActivityName="com.arjunkapoor.engineeringinterview.MainActivity"
+            >
+        </activity>
+        <activity
+            android:name="com.arjunkapoor.engineeringinterview.civildata"
+            android:label="CIVIL"
+            android:parentActivityName="com.arjunkapoor.engineeringinterview.civil"
+            >
+        </activity>
+        <activity
+            android:name="com.arjunkapoor.engineeringinterview.mechanical"
+            android:label="@string/title_activity_mechanical"
+            android:parentActivityName="com.arjunkapoor.engineeringinterview.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.arjunkapoor.engineeringinterview.mechanicaldata"
+            android:label="@string/title_activity_mechanicaldata"
+            android:parentActivityName="com.arjunkapoor.engineeringinterview.mechanical" >
+        </activity>
+        <activity
+            android:name="com.arjunkapoor.engineeringinterview.electrical"
+            android:label="ELECTRICAL"
+            android:parentActivityName="com.arjunkapoor.engineeringinterview.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.arjunkapoor.engineeringinterview.electricaldata"
+            android:label="@string/title_activity_electricaldata"
+            android:parentActivityName="com.arjunkapoor.engineeringinterview.electrical" >
+        </activity>
+        <activity
+            android:name="com.arjunkapoor.engineeringinterview.ec"
+            android:label="@string/title_activity_ec"
+            android:parentActivityName="com.arjunkapoor.engineeringinterview.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.arjunkapoor.engineeringinterview.ecdata"
+            android:label="@string/title_activity_ecdata"
+            android:parentActivityName="com.arjunkapoor.engineeringinterview.ec" >
+        </activity>
+        <activity
+            android:name="com.arjunkapoor.engineeringinterview.chemical"
+            android:label="@string/title_activity_chemical"
+            android:parentActivityName="com.arjunkapoor.engineeringinterview.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.arjunkapoor.engineeringinterview.chemicaldata"
+            android:label="@string/title_activity_chemicaldata"
+            android:parentActivityName="com.arjunkapoor.engineeringinterview.chemical" >
+        </activity>
+        <activity
+            android:name="com.arjunkapoor.engineeringinterview.ei"
+            android:label="@string/title_activity_ei"
+            android:parentActivityName="com.arjunkapoor.engineeringinterview.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.arjunkapoor.engineeringinterview.eidata"
+            android:label="@string/title_activity_eidata"
+            android:parentActivityName="com.arjunkapoor.engineeringinterview.ei" >
+        </activity>
+        <activity
+            android:name="com.arjunkapoor.engineeringinterview.cse"
+            android:label="@string/title_activity_cse"
+            android:parentActivityName="com.arjunkapoor.engineeringinterview.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.arjunkapoor.engineeringinterview.csedata"
+            android:label="@string/title_activity_csedata"
+            android:parentActivityName="com.arjunkapoor.engineeringinterview.cse" >
+        </activity>
+        <activity
+            android:name="com.arjunkapoor.engineeringinterview.petroleum"
+            android:label="@string/title_activity_petroleum"
+            android:parentActivityName="com.arjunkapoor.engineeringinterview.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.arjunkapoor.engineeringinterview.petroleumdata"
+            android:label="@string/title_activity_petroleumdata"
+            android:parentActivityName="com.arjunkapoor.engineeringinterview.petroleum" >
+        </activity>
+        <activity
+            android:name="com.arjunkapoor.engineeringinterview.aeronautical"
+            android:label="@string/title_activity_aeronautical"
+            android:parentActivityName="com.arjunkapoor.engineeringinterview.MainActivity">
+        </activity>
+        <activity
+            android:name="com.arjunkapoor.engineeringinterview.aeronauticaldata"
+            android:label="@string/title_activity_aeronauticaldata"
+            android:parentActivityName="com.arjunkapoor.engineeringinterview.aeronautical">
+        </activity>
+    </application>
+
+</manifest>

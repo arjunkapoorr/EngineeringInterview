@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Engineering interview</string>
+
+    <string name="action_addquestions">Add Questions</string>
+    <string name="action_settings">Add Questions</string>
+
+    <string name="action_rateus">RATE US</string>
+    <string name="action_ask">Ask a question</string>
+
+    <string name="civil">CIVIL</string>
+    <string name="mechanical">MECHANICAL</string>
+    <string name="ec">EC</string>
+    <string name="ei">EI</string>
+    <string name="aeronautical">AERONAUTICAL</string>
+    <string name="petroleum">PETROLEUM</string>
+    <string name="cse">CSE/IT</string>
+    <string name="electrical">ELECTRICAL</string>
+    <string name="chemical">CHEMICAL</string>
+    <string name = "title_activity_test">test</string>
+    <string name="title_activity_civilactivity">civilactivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_civil">CIVIL</string>
+    <string name="title_activity_civildata">civildata</string>
+    <string name="title_activity_mechanical">MECHANICAL</string>
+    <string name="title_activity_mechanicaldata">MECHANICAL</string>
+    <string name="title_activity_electrical">ELECTRICAL</string>
+    <string name="title_activity_electricaldata">ELECTRICAL</string>
+    <string name="title_activity_ec">EC</string>
+    <string name="title_activity_ecdata">EC</string>
+    <string name="title_activity_chemical">CHEMICAL</string>
+    <string name="title_activity_chemicaldata">CHEMICAL</string>
+    <string name="title_activity_ei">EI</string>
+    <string name="title_activity_eidata">EI</string>
+    <string name="title_activity_cse">CSE/IT</string>
+    <string name="title_activity_csedata">CSE/IT</string>
+    <string name="title_activity_food">FOOD</string>
+    <string name="title_activity_fooddata">FOOD</string>
+    <string name="title_activity_agriculture">AGRICULTURE</string>
+    <string name="title_activity_agriculturedata">AGRICULTURE</string>
+    <string name="title_activity_petroleum">PETROLEUM</string>
+    <string name="title_activity_petroleumdata">PETROLEUM</string>
+    <string name="title_activity_aeronautical">AERONAUTICAL</string>
+    <string name="title_activity_aeronauticaldata">AERONAUTICAL</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4632826352122237/9714874906</string>
+
+</resources>
